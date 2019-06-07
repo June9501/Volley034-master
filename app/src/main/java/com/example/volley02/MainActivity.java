@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (menuItem.getItemId()){
                     case R.id.navigation_social:{
                         transaction1.replace(R.id.frame_layout, socialFragment).commitAllowingStateLoss();
+
                         break;
                     }
                     case R.id.navigation_friend:{
